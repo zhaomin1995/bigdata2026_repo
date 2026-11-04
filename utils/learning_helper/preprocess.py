@@ -104,7 +104,7 @@ class Preprocessor:
         Returns:
             training data, development data, and test data
         """
-        data_split_filepath = 'data_split'
+        data_split_filepath = 'data_split.json'
         with open(data_split_filepath, 'r') as split_file:
             splits = json.load(split_file)
             train_ids = splits['train']

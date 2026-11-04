@@ -209,7 +209,7 @@ def main(
         for item in responses:
             mapped_predictions.append(map_prediction(item["response"]))
 
-    with jsonlines.open("annotations2/new_annotation.jsonl") as reader:
+    with jsonlines.open("annotations/new_annotation.jsonl") as reader:
         instances = [obj for obj in reader]
 
         train_instances, dev_instances, test_instances = preprocessor.split_instances(
