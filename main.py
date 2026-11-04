@@ -217,7 +217,7 @@ def main(
             model_path = os.path.join('retrained_models', full_model_name)
             classifier.load_state_dict(torch.load(model_path))
             classifier.eval()
-            with jsonlines.open('annotations2/new_annotation.jsonl') as reader:
+            with jsonlines.open('annotations/new_annotation.jsonl') as reader:
                 instances = [obj for obj in reader]
                 # split instances into train, development, and test
                 # we only use test instances if we only do inference
@@ -273,7 +273,7 @@ def main(
         print(classification_report(gold_labels, pred_labels))
 
         # save predictions
-        evaluator.save_prediction(model_name, pred_labels, test_instances, prediction_dir='predictions')
+        evaluator.save_prediction(model_name, pred_labels, test_instances, prediction_dir='experimental_results/predictions')
 
 
 if __name__ == '__main__':

@@ -17,7 +17,7 @@ LABELS = [
 ]
 
 
-def load_test_instances(annotation_file="annotations2/new_annotation.jsonl"):
+def load_test_instances(annotation_file="annotations/new_annotation.jsonl"):
     preprocessor = Preprocessor()
 
     with open(annotation_file, "r", encoding="utf-8") as file:
@@ -119,7 +119,7 @@ def main():
     )
     parser.add_argument(
         "--annotation_file",
-        default="annotations2/new_annotation.jsonl",
+        default="annotations/new_annotation.jsonl",
         help="Ground-truth annotations used to build the test split.",
     )
     parser.add_argument(

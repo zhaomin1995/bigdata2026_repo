@@ -75,7 +75,7 @@ class Evaluator:
 
         return result
 
-    def save_prediction(self, model_name, pred_labels, test_instances, prediction_dir='predictions'):
+    def save_prediction(self, model_name, pred_labels, test_instances, prediction_dir='experimental_results/predictions'):
         """Save the predicted labels to do the error analysis.
 
         Args:

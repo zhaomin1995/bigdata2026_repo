@@ -159,7 +159,7 @@ def main(
             mapped_predictions.append(map_prediction(item['response']))
         
     # get the list of ground truth
-    with jsonlines.open('annotations2/new_annotation.jsonl') as reader:
+    with jsonlines.open('annotations/new_annotation.jsonl') as reader:
         instances = [obj for obj in reader]
         # split instances into train, development, and test
         # we only use test instances if we only do inference

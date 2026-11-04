@@ -1,0 +1,22 @@
+# Core: training and evaluation
+torch
+torchvision
+transformers
+peft
+scikit-learn
+numpy
+Pillow
+jsonlines
+krippendorff
+tqdm
+requests
+huggingface_hub
+
+# API clients: only needed to regenerate LLM/VLM responses
+openai
+google-genai
+
+# Model-specific extras
+qwen-vl-utils
+open-flamingo
+craft-text-detector
