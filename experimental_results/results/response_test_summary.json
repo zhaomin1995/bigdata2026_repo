@@ -1,0 +1,462 @@
+[
+  {
+    "file": "Claude3Haiku_response",
+    "count": 1095,
+    "accuracy": 0.41643835616438357,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.15418502202643172,
+        "recall": 0.19662921348314608,
+        "f1-score": 0.1728395061728395,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.16883116883116883,
+        "recall": 0.4421768707482993,
+        "f1-score": 0.2443609022556391,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.7370600414078675,
+        "recall": 0.4641460234680574,
+        "f1-score": 0.5696000000000001,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.41643835616438357,
+      "macro avg": {
+        "precision": 0.26501905806636705,
+        "recall": 0.2757380269248757,
+        "f1-score": 0.24670010210711968,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.5640074589029416,
+        "recall": 0.41643835616438357,
+        "f1-score": 0.45988099062131915,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.154     0.197     0.173       178\n         1-30 days      0.169     0.442     0.244       147\n more than 30 days      0.737     0.464     0.570       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.416      1095\n         macro avg      0.265     0.276     0.247      1095\n      weighted avg      0.564     0.416     0.460      1095\n"
+  },
+  {
+    "file": "GLM-4v_response",
+    "count": 1095,
+    "accuracy": 0.869406392694064,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.9159663865546218,
+        "recall": 0.6123595505617978,
+        "f1-score": 0.734006734006734,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.8809523809523809,
+        "recall": 0.5034013605442177,
+        "f1-score": 0.6406926406926406,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.8617977528089887,
+        "recall": 1.0,
+        "f1-score": 0.9257694628847315,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "accuracy": 0.869406392694064,
+      "macro avg": {
+        "precision": 0.9146791300789978,
+        "recall": 0.6956068944431705,
+        "f1-score": 0.7751172093960266,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.8735533271335315,
+        "recall": 0.869406392694064,
+        "f1-score": 0.8559819131211013,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.916     0.612     0.734       178\n         1-30 days      0.881     0.503     0.641       147\n more than 30 days      0.862     1.000     0.926       767\nI cannot determine      1.000     0.667     0.800         3\n\n          accuracy                          0.869      1095\n         macro avg      0.915     0.696     0.775      1095\n      weighted avg      0.874     0.869     0.856      1095\n"
+  },
+  {
+    "file": "Llama3.2Visual_response",
+    "count": 1095,
+    "accuracy": 0.7680365296803653,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.5752212389380531,
+        "recall": 0.3651685393258427,
+        "f1-score": 0.44673539518900346,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.6923076923076923,
+        "recall": 0.1836734693877551,
+        "f1-score": 0.2903225806451613,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.7936170212765957,
+        "recall": 0.9726205997392438,
+        "f1-score": 0.8740480374926772,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7680365296803653,
+      "macro avg": {
+        "precision": 0.7652864881305853,
+        "recall": 0.6303656521132104,
+        "f1-score": 0.6527765033317106,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.7450802434879938,
+        "recall": 0.7680365296803653,
+        "f1-score": 0.726567273475219,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.575     0.365     0.447       178\n         1-30 days      0.692     0.184     0.290       147\n more than 30 days      0.794     0.973     0.874       767\nI cannot determine      1.000     1.000     1.000         3\n\n          accuracy                          0.768      1095\n         macro avg      0.765     0.630     0.653      1095\n      weighted avg      0.745     0.768     0.727      1095\n"
+  },
+  {
+    "file": "Llama3.2_response",
+    "count": 1095,
+    "accuracy": 0.4009132420091324,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.2070365358592693,
+        "recall": 0.8595505617977528,
+        "f1-score": 0.3336968375136314,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.36666666666666664,
+        "recall": 0.14965986394557823,
+        "f1-score": 0.21256038647342992,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.9166666666666666,
+        "recall": 0.34419817470664926,
+        "f1-score": 0.500473933649289,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.4009132420091324,
+      "macro avg": {
+        "precision": 0.37259246729815065,
+        "recall": 0.3383521501124951,
+        "f1-score": 0.2616827894090876,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.7249642344440943,
+        "recall": 0.4009132420091324,
+        "f1-score": 0.4333405671214843,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.207     0.860     0.334       178\n         1-30 days      0.367     0.150     0.213       147\n more than 30 days      0.917     0.344     0.500       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.401      1095\n         macro avg      0.373     0.338     0.262      1095\n      weighted avg      0.725     0.401     0.433      1095\n"
+  },
+  {
+    "file": "Qwen2.5VL_response",
+    "count": 1095,
+    "accuracy": 0.8602739726027397,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.7883211678832117,
+        "recall": 0.6067415730337079,
+        "f1-score": 0.6857142857142857,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.8170731707317073,
+        "recall": 0.4557823129251701,
+        "f1-score": 0.5851528384279476,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.8765714285714286,
+        "recall": 1.0,
+        "f1-score": 0.9342265529841657,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.8602739726027397,
+      "macro avg": {
+        "precision": 0.6204914417965869,
+        "recall": 0.5156309714897195,
+        "f1-score": 0.5512734192815998,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.8518367211827016,
+        "recall": 0.8602739726027397,
+        "f1-score": 0.8444076495387272,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.788     0.607     0.686       178\n         1-30 days      0.817     0.456     0.585       147\n more than 30 days      0.877     1.000     0.934       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.860      1095\n         macro avg      0.620     0.516     0.551      1095\n      weighted avg      0.852     0.860     0.844      1095\n"
+  },
+  {
+    "file": "Qwen2.5_response",
+    "count": 1095,
+    "accuracy": 0.3150684931506849,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.34782608695652173,
+        "recall": 0.3146067415730337,
+        "f1-score": 0.3303834808259587,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.1458625525946704,
+        "recall": 0.7074829931972789,
+        "f1-score": 0.24186046511627907,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.8371040723981901,
+        "recall": 0.24119947848761408,
+        "f1-score": 0.3744939271255061,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.3150684931506849,
+      "macro avg": {
+        "precision": 0.3326981779873456,
+        "recall": 0.3158223033144817,
+        "f1-score": 0.23668446826693595,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.6624782303553327,
+        "recall": 0.3150684931506849,
+        "f1-score": 0.34849186307249025,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.348     0.315     0.330       178\n         1-30 days      0.146     0.707     0.242       147\n more than 30 days      0.837     0.241     0.374       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.315      1095\n         macro avg      0.333     0.316     0.237      1095\n      weighted avg      0.662     0.315     0.348      1095\n"
+  },
+  {
+    "file": "gemini-1.5-flash_response",
+    "count": 1095,
+    "accuracy": 0.42557077625570777,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.18777292576419213,
+        "recall": 0.24157303370786518,
+        "f1-score": 0.21130221130221127,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.15633423180592992,
+        "recall": 0.3945578231292517,
+        "f1-score": 0.22393822393822393,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.7373737373737373,
+        "recall": 0.4758800521512386,
+        "f1-score": 0.5784469096671949,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.42557077625570777,
+      "macro avg": {
+        "precision": 0.27037022373596487,
+        "recall": 0.27800272724708885,
+        "f1-score": 0.2534218362269075,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.5680094697964881,
+        "recall": 0.42557077625570777,
+        "f1-score": 0.46958857739310594,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.188     0.242     0.211       178\n         1-30 days      0.156     0.395     0.224       147\n more than 30 days      0.737     0.476     0.578       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.426      1095\n         macro avg      0.270     0.278     0.253      1095\n      weighted avg      0.568     0.426     0.470      1095\n"
+  },
+  {
+    "file": "gemini-2.5-pro_response",
+    "count": 1095,
+    "accuracy": 0.852054794520548,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.98,
+        "recall": 0.550561797752809,
+        "f1-score": 0.7050359712230216,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.9714285714285714,
+        "recall": 0.46258503401360546,
+        "f1-score": 0.6267281105990784,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.8291891891891892,
+        "recall": 1.0,
+        "f1-score": 0.9066193853427896,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.852054794520548,
+      "macro avg": {
+        "precision": 0.6951544401544402,
+        "recall": 0.5032867079416037,
+        "f1-score": 0.5595958667912224,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.8705279526101444,
+        "recall": 0.852054794520548,
+        "f1-score": 0.833792240816148,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.980     0.551     0.705       178\n         1-30 days      0.971     0.463     0.627       147\n more than 30 days      0.829     1.000     0.907       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.852      1095\n         macro avg      0.695     0.503     0.560      1095\n      weighted avg      0.871     0.852     0.834      1095\n"
+  },
+  {
+    "file": "gpt-5-mini_response",
+    "count": 1095,
+    "accuracy": 0.7607305936073059,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.5752212389380531,
+        "recall": 0.3651685393258427,
+        "f1-score": 0.44673539518900346,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.6470588235294118,
+        "recall": 0.14965986394557823,
+        "f1-score": 0.24309392265193366,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.7869198312236287,
+        "recall": 0.9726205997392438,
+        "f1-score": 0.8699708454810496,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7607305936073059,
+      "macro avg": {
+        "precision": 0.5022999734227734,
+        "recall": 0.3718622507526662,
+        "f1-score": 0.38995004083049667,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.7315749206742651,
+        "recall": 0.7607305936073059,
+        "f1-score": 0.7146313657145588,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.575     0.365     0.447       178\n         1-30 days      0.647     0.150     0.243       147\n more than 30 days      0.787     0.973     0.870       767\nI cannot determine      0.000     0.000     0.000         3\n\n          accuracy                          0.761      1095\n         macro avg      0.502     0.372     0.390      1095\n      weighted avg      0.732     0.761     0.715      1095\n"
+  },
+  {
+    "file": "grok4_response",
+    "count": 1095,
+    "accuracy": 0.8383561643835616,
+    "missing_ids": 0,
+    "report": {
+      "0-24 hours": {
+        "precision": 0.9651162790697675,
+        "recall": 0.46629213483146065,
+        "f1-score": 0.6287878787878787,
+        "support": 178.0
+      },
+      "1-30 days": {
+        "precision": 0.9178082191780822,
+        "recall": 0.4557823129251701,
+        "f1-score": 0.6090909090909091,
+        "support": 147.0
+      },
+      "more than 30 days": {
+        "precision": 0.8203208556149733,
+        "recall": 1.0,
+        "f1-score": 0.9012925969447708,
+        "support": 767.0
+      },
+      "I cannot determine": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 3.0
+      },
+      "accuracy": 0.8383561643835616,
+      "macro avg": {
+        "precision": 0.9258113384657057,
+        "recall": 0.563851945272491,
+        "f1-score": 0.6597928462058896,
+        "support": 1095.0
+      },
+      "weighted avg": {
+        "precision": 0.857437992831307,
+        "recall": 0.8383561643835616,
+        "f1-score": 0.816668518645886,
+        "support": 1095.0
+      }
+    },
+    "report_text": "                    precision    recall  f1-score   support\n\n        0-24 hours      0.965     0.466     0.629       178\n         1-30 days      0.918     0.456     0.609       147\n more than 30 days      0.820     1.000     0.901       767\nI cannot determine      1.000     0.333     0.500         3\n\n          accuracy                          0.838      1095\n         macro avg      0.926     0.564     0.660      1095\n      weighted avg      0.857     0.838     0.817      1095\n"
+  }
+]
