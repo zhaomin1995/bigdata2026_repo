@@ -73,7 +73,9 @@ python main.py --repeated_run --batch_size 64 --learning_rate 1e-06 --num_epochs
 @inproceedings{yu2026leaving,
   title     = {Leaving, Staying, or Living There? Duration Commonsense Reasoning with Human-LLM Co-annotations},
   author    = {Chenyang Yu and Zhaomin Xiao and Yan Huang and Eduardo Blanco},
-  booktitle = {Proceedings of the 2026 IEEE International Conference on Big Data (IEEE BigData 2026)},
+  booktitle = {2026 IEEE International Conference on Big Data (BigData)},
+  address   = {Phoenix, AZ, USA},
+  publisher = {IEEE},
   year      = {2026}
 }
 ```
