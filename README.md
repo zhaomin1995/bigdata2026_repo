@@ -34,7 +34,14 @@ data/<instance_id>/<instance_id>.json   # tweet text and the other fields used b
 
 Each JSON file keeps only `id_str`, `created_at`, `lang`, `full_text`, `image_caption`, `location_description`, and `place` (`full_name`, `name`, `place_type`, `country_code`). User objects, coordinates, and all other tweet metadata were removed.
 
-The tweet images (`data/<instance_id>/<instance_id>.png`, about 4.5 GB in total) are too large for this repository. Please contact the authors to obtain them.
+The tweet images (`data/<instance_id>/<instance_id>.png`, about 4.5 GB in total) are too large for this repository and are distributed separately:
+
+```
+wget https://zhaomin.s3.us-east-2.amazonaws.com/public_projects/duration_data_anonymized.zip
+unzip -o duration_data_anonymized.zip   # adds the images to data/ (git-ignored)
+```
+
+The archive has the same layout as `data/` and also contains the JSON files above, so it can be used on its own.
 
 ## Setup
 
