@@ -12,6 +12,7 @@ from qwen_vl_utils import process_vision_info
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoProcessor
 import re
 from utils.learning_helper.preprocess import Preprocessor
+from utils.learning_helper.display_helper import display_path
 from utils.annotation_filter.annotation_helper import map_prediction
 
 def clean_thinking_tokens(raw_text: str) -> str:
@@ -166,7 +167,7 @@ def main(
                     {
                         "role": "user",
                         "content": [
-                            {"type": "image", "image": instance["display_link"]},
+                            {"type": "image", "image": display_path(instance)},
                             {"type": "text", "text": f"Describe the tweet image in detail, and analyze its relationship to the tweet text and hashtags.\n\nTweet text: {tweet_text}"}
                         ]
                     }
@@ -177,7 +178,7 @@ def main(
                 qwen_output = qwen_interface({"messages": messages}, tokenizer, model, processor)
             else:
                 args = {
-                    "image_file": instance["display_link"],
+                    "image_file": display_path(instance),
                     "query": prompt,
                     "conv_mode": None,
                     "sep": ",",

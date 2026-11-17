@@ -1,4 +1,5 @@
 data/*/*.png
+display/
 *.pyc
 retrained_models/
 batches/

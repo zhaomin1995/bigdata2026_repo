@@ -9,6 +9,7 @@ Given a geotagged tweet (text and image), the task is to infer how long the auth
 | Path | Contents |
 |---|---|
 | `data/` | Tweet text of every annotated instance (see *Data*) |
+| `display/` | Tweet screenshots of the test instances, the image input of the VLM scripts (downloaded separately, see *Data*) |
 | `annotations/new_annotation.jsonl` | Adjudicated labels for the 1,095 test instances (`instance_id`, `adjudicated_label`) |
 | `annotations/human_annotations/` | Per-batch human annotations (21 batches of 500), with per-annotator labels |
 | `data_split.json` | Train / dev / test instance ids (3,500 / 876 / 1,095) |
@@ -22,7 +23,7 @@ Given a geotagged tweet (text and image), the task is to infer how long the auth
 | `response_test.py` | Recompute the evaluation metrics from the saved responses |
 | `other/` | `MACE.jar` (label adjudication), a sample AMT batch file, and the tweet-rendering template used for figures |
 
-**Privacy note:** all MTurk WorkerIds are pseudonymized (`annotator_0001`, `annotator_0002`, ...) with a single consistent mapping across all files. The released files contain no user objects, usernames, or profile images: each tweet is distributed as its text, its image, and its geotagged city. The `display_link` and `image_link` fields hold only the file name of the tweet screenshot shown to annotators, not a link; the screenshots are not distributed. For takedown requests, please contact the authors.
+**Privacy note:** all MTurk WorkerIds are pseudonymized (`annotator_0001`, `annotator_0002`, ...) with a single consistent mapping across all files. The released files contain no user objects, usernames, or profile images: each tweet is distributed as its text, its image, and its geotagged city. The `display_link` and `image_link` fields hold only the file name of the tweet screenshot shown to annotators, not a link. The screenshots of the test instances are distributed with the profile image, display name, and username of the author masked (see *Data*); the other screenshots are not distributed. For takedown requests, please contact the authors.
 
 ## Data
 
@@ -42,6 +43,15 @@ unzip -o duration_data_anonymized.zip   # adds the images to data/ (git-ignored)
 ```
 
 The archive has the same layout as `data/` and also contains the JSON files above, so it can be used on its own.
+
+The tweet screenshots that `llm_openai.py`, `llm_glm.py`, and `llm_qwen.py` take as image input (`display/display_<instance_id>.png`, one per test instance, about 555 MB in total) are also distributed separately:
+
+```
+wget https://zhaomin.s3.us-east-2.amazonaws.com/public_projects/duration_display_anonymized.zip
+unzip -o duration_display_anonymized.zip   # creates display/ (git-ignored)
+```
+
+In these screenshots, the profile image, display name, and username of the author are masked; everything else is unchanged.
 
 ## Setup
 

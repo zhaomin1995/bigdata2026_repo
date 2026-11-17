@@ -1,6 +1,4 @@
-from io import BytesIO
 import os
-import requests
 os.environ["HUGGINGFACE_HUB_CACHE"] = '/mnt/DATA/hf_cache/'
 from PIL import Image
 import argparse
@@ -13,6 +11,7 @@ from pathlib import Path
 from transformers import AutoTokenizer, AutoProcessor,AutoModelForCausalLM, GenerationConfig
 from sklearn.metrics import classification_report
 from utils.learning_helper.preprocess import Preprocessor
+from utils.learning_helper.display_helper import display_path
 
 from utils.annotation_filter.annotation_helper import map_prediction
 
@@ -24,7 +23,7 @@ def llava_interface(args, tokenizer, model, image_processor):
     {"role": "assistant", "content": "You are a helpful assistant for inferring the duration of human activities."},
     {
         "role": "user",
-        "image": Image.open(BytesIO(requests.get(args['image_file']).content)).convert('RGB'),
+        "image": Image.open(args['image_file']).convert('RGB'),
         "content": qs
         # "content": [
         #     {
@@ -121,7 +120,7 @@ def main(
 
             # prepare the argument that LLaVa needs
             args = {}
-            args['image_file'] = instance['display_link']
+            args['image_file'] = display_path(instance)
             args['query'] = prompt
             args['conv_mode'] = None
             args['sep'] = ','

@@ -12,6 +12,7 @@ from pathlib import Path
 
 from sklearn.metrics import classification_report
 from utils.learning_helper.preprocess import Preprocessor
+from utils.learning_helper.display_helper import display_data_url
 client = openai.OpenAI(api_key="xxxxx", base_url="https://openkey.cloud/v1")
 from utils.annotation_filter.annotation_helper import map_prediction
 
@@ -103,7 +104,7 @@ def main(
 
             # prepare the argument that LLaVa needs
             args = {}
-            args['image_file'] = instance['display_link']
+            args['image_file'] = display_data_url(instance)
             args['query'] = prompt
             args['conv_mode'] = None
             args['sep'] = ','
