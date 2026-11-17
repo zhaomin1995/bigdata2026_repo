@@ -1,0 +1,14 @@
+{
+ "id_str": "1241225044036108288",
+ "created_at": "Sat Mar 21 04:48:06 +0000 2020",
+ "lang": "en",
+ "full_text": "Tonight’s dinner is a yummy bacon, Swiss cheese, green onion quiche. Cooking makes everything better. #cookingtherapy #corona #stayhealthy @ Ventura, California https://t.co/V53vVdzrbw",
+ "image_caption": "a green vegetable pizza on a wooden board",
+ "location_description": "Ventura, officially named San Buenaventura (Spanish for \"Saint Bonaventure\"), is a city on the Central Coast of California and the county seat of Ventura County. The population was 110,763 at the 2020 census. Ventura is a popular tourist destination, owing to its historic landmarks, beaches, and resorts.",
+ "place": {
+  "full_name": "Ventura, CA",
+  "name": "Ventura",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "id_str": "1268346869538861056",
+ "created_at": "Thu Jun 04 01:00:33 +0000 2020",
+ "lang": "en",
+ "full_text": "#quarantini #covid19 cocktail is a Scotch Old Fashioned. #besafe Black Lives Matter. @ Indian Wells, California https://t.co/IwCghImXJR",
+ "image_caption": "a glass of orange juice sitting on top of a table",
+ "location_description": "Indian Wells is a city in Riverside County, California, in the Coachella Valley. Incorporated in 1967, it lies in between the cities of Palm Desert and La Quinta. As of the 2010 Census, the city population was 4,958.",
+ "place": {
+  "full_name": "Indian Wells, CA",
+  "name": "Indian Wells",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

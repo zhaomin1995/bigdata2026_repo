@@ -1,0 +1,14 @@
+{
+ "id_str": "1251629806950596608",
+ "created_at": "Sat Apr 18 21:52:54 +0000 2020",
+ "lang": "en",
+ "full_text": "#bourbon #saturday #covid @ Myrtle Beach, South Carolina https://t.co/zbLNC5qqbc",
+ "image_caption": "a bottle of alcohol sitting on top of a table",
+ "location_description": "Myrtle Beach is a coastal city on the east coast of the United States in Horry County, South Carolina. It is located in the center of a long and continuous 60-mile (97 km) stretch of beach known as \"The Grand Strand\" in northeastern South Carolina.\nMyrtle Beach is one of the major centers of tourism in South Carolina and the United States.",
+ "place": {
+  "full_name": "Myrtle Beach, SC",
+  "name": "Myrtle Beach",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

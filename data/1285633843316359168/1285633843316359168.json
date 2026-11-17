@@ -1,0 +1,14 @@
+{
+ "id_str": "1285633843316359168",
+ "created_at": "Tue Jul 21 17:52:48 +0000 2020",
+ "lang": "en",
+ "full_text": "The new normal. #coronavirus #masks #stayhome #staysafe @ West Palm Beach, Florida https://t.co/heR7iIjx7w",
+ "image_caption": "a man standing in front of a television in a living room",
+ "location_description": "West Palm Beach is a city in and the county seat of Palm Beach County, Florida. It is located immediately to the west of the adjacent Palm Beach, which is situated on a barrier island across the Lake Worth Lagoon. The population was 117,415 at the 2020 census.",
+ "place": {
+  "full_name": "West Palm Beach, FL",
+  "name": "West Palm Beach",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

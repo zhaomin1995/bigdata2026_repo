@@ -1,0 +1,14 @@
+{
+ "id_str": "1303530854187237376",
+ "created_at": "Wed Sep 09 03:09:08 +0000 2020",
+ "lang": "en",
+ "full_text": "#covid19 #covid_19 #covidiots #coronavirus #wearamask #wearadamnmask @ Long Beach, California https://t.co/HKJ1k1lwAV",
+ "image_caption": "a man standing next to a man holding a bag",
+ "location_description": "Long Beach is a city in Los Angeles County, California. It is the 42nd-most populous city in the United States, with a population of 466,742 as of 2020. A charter city, Long Beach is the seventh-most populous city in California.",
+ "place": {
+  "full_name": "Long Beach, CA",
+  "name": "Long Beach",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

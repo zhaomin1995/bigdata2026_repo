@@ -1,0 +1,14 @@
+{
+ "id_str": "1287433761907511297",
+ "created_at": "Sun Jul 26 17:05:02 +0000 2020",
+ "lang": "en",
+ "full_text": "Social Distancing with the homies. #UPC #vital #POMONA #maskon @ Pomona, California https://t.co/z25HnOmIzi",
+ "image_caption": "three people sitting at a table in a room",
+ "location_description": "Pomona is a city in Los Angeles County, California. Pomona is located in the Pomona Valley, between the Inland Empire and the San Gabriel Valley. At the 2020 census, the city's population was 151,713.",
+ "place": {
+  "full_name": "Pomona, CA",
+  "name": "Pomona",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "id_str": "1284666796293922817",
+ "created_at": "Sun Jul 19 01:50:06 +0000 2020",
+ "lang": "en",
+ "full_text": "#currentmood #hawaii #socialdistancing on the #beach @ Ala Moana Beach Park https://t.co/GMkvDiU3Ai",
+ "image_caption": "a man laying on a beach next to a body of water",
+ "location_description": "Honolulu (; Hawaiian: [honoˈlulu]) is the capital and largest city of the U.S. state of Hawaii, which is located in the Pacific Ocean. It is an unincorporated county seat of the consolidated City and County of Honolulu, situated along the southeast coast of the island of Oʻahu, and is the westernmost and southernmost major U.S. city. Honolulu is Hawaii's main gateway to the world.",
+ "place": {
+  "full_name": "Honolulu, HI",
+  "name": "Honolulu",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

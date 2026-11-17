@@ -1,0 +1,14 @@
+{
+ "id_str": "1271610473142800386",
+ "created_at": "Sat Jun 13 01:08:56 +0000 2020",
+ "lang": "en",
+ "full_text": "After several@months of #COVID19 #quarantine you are happy to see new faces even if they are an inflatable #unicorn @ Concord, Massachusetts https://t.co/9xqt1Q4GN9",
+ "image_caption": "a man wearing a helmet and goggles while holding a kite",
+ "location_description": "Concord () is a town in Middlesex County, Massachusetts, in the United States. At the 2020 census, the town population was 18,491. The United States Census Bureau considers Concord part of Greater Boston.",
+ "place": {
+  "full_name": "Concord, MA",
+  "name": "Concord",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

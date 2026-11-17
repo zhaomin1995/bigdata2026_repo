@@ -1,0 +1,14 @@
+{
+ "id_str": "1256714442018099210",
+ "created_at": "Sat May 02 22:37:26 +0000 2020",
+ "lang": "en",
+ "full_text": "I want to order movie theater popcorn for takeout.\n\n#quarantinelife #covid19 #movies #theater @ Seattle, Washington https://t.co/G2NHFVzHRD",
+ "image_caption": "a table topped with a bunch of different flavored donuts",
+ "location_description": "Seattle ( (listen) see-AT-əl) is a seaport city on the West Coast of the United States. It is the seat of King County, Washington. With a 2020 population of 737,015, it is the largest city in both the state of Washington and the Pacific Northwest region of North America.",
+ "place": {
+  "full_name": "Seattle, WA",
+  "name": "Seattle",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

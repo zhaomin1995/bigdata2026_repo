@@ -1,0 +1,14 @@
+{
+ "id_str": "1244408640272023559",
+ "created_at": "Sun Mar 29 23:38:34 +0000 2020",
+ "lang": "en",
+ "full_text": "#Corona #wildlife #Oakland @ Oakland, California https://t.co/sMfToT6wou",
+ "image_caption": "a bird flying over a pile of snow",
+ "location_description": "Oakland is the largest city and the county seat of Alameda County, California. A major West Coast port, Oakland is the largest city in the East Bay region of the San Francisco Bay Area, the third largest city overall in the Bay Area and the eighth most populated city in California. With a population of 440,646 as of 2020, it serves as a trade center: the Port of Oakland is the busiest port in Northern California, and the fifth busiest in the United States of America.",
+ "place": {
+  "full_name": "Oakland, CA",
+  "name": "Oakland",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

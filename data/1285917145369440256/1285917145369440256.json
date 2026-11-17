@@ -1,0 +1,14 @@
+{
+ "id_str": "1285917145369440256",
+ "created_at": "Wed Jul 22 12:38:33 +0000 2020",
+ "lang": "en",
+ "full_text": "#curbsidepickup #covid19 #coronavirus @ Bradley, Illinois https://t.co/uG0ofQey1T",
+ "image_caption": "a sign on the side of a building",
+ "location_description": "Bradley (formerly North Kankakee) is a village in Kankakee County, Illinois, United States. It is a suburb of the city of Kankakee. The population was 15,895 at the 2010 census, up from 12,784 at the 2000 census.",
+ "place": {
+  "full_name": "Bradley, IL",
+  "name": "Bradley",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

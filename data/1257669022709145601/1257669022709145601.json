@@ -1,0 +1,14 @@
+{
+ "id_str": "1257669022709145601",
+ "created_at": "Tue May 05 13:50:36 +0000 2020",
+ "lang": "en",
+ "full_text": "#covid #quarentine #cincodemayo #cincodequarintino @ Huntington Harbour, California https://t.co/wwIv4jC3NN",
+ "image_caption": "a yellow and blue sign with a picture of a person",
+ "location_description": "Huntington Beach is a seaside city in Orange County in Southern California, located 35 miles (56 km) southeast of Downtown Los Angeles. The city is named after American businessman Henry E. Huntington. The population was 198,711 during the 2020 census, making it the fourth most populous city in Orange County, the most populous beach city in Orange County, and the seventh most populous city in the Los Angeles-Long Beach-Anaheim, CA Metropolitan Statistical Area.",
+ "place": {
+  "full_name": "Huntington Beach, CA",
+  "name": "Huntington Beach",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

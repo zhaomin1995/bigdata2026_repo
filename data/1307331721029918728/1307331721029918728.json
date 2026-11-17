@@ -1,0 +1,14 @@
+{
+ "id_str": "1307331721029918728",
+ "created_at": "Sat Sep 19 14:52:25 +0000 2020",
+ "lang": "en",
+ "full_text": "#socialdistancing #nuyuirisk #lunch @ Merritt City, Merritt Island, Florida https://t.co/UEWGWC82rD",
+ "image_caption": "a large building with a clock on the side of it",
+ "location_description": "Merritt Island is a census-designated place (CDP) in Brevard County, Florida, United States, located on the eastern Floridian coast, along the Atlantic Ocean.  The population was 34,518 at the 2020 census. It is part of the Palm Bay – Melbourne – Titusville, Florida Metropolitan Statistical Area.",
+ "place": {
+  "full_name": "Merritt Island, FL",
+  "name": "Merritt Island",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

@@ -8,6 +8,7 @@ Given a geotagged tweet (text and image), the task is to infer how long the auth
 
 | Path | Contents |
 |---|---|
+| `data/` | Tweet text of every annotated instance (see *Data*) |
 | `annotations/new_annotation.jsonl` | Adjudicated labels for the 1,095 test instances (`instance_id`, `adjudicated_label`) |
 | `annotations/human_annotations/` | Per-batch human annotations (21 batches of 500), with per-annotator labels |
 | `data_split.json` | Train / dev / test instance ids (3,500 / 876 / 1,095) |
@@ -21,16 +22,19 @@ Given a geotagged tweet (text and image), the task is to infer how long the auth
 | `response_test.py` | Recompute the evaluation metrics from the saved responses |
 | `other/` | `MACE.jar` (label adjudication), a sample AMT batch file, and the tweet-rendering template used for figures |
 
-**Privacy note:** all MTurk WorkerIds are pseudonymized (`annotator_0001`, `annotator_0002`, ...) with a single consistent mapping across all files. The released files contain no usernames or profile images.
+**Privacy note:** all MTurk WorkerIds are pseudonymized (`annotator_0001`, `annotator_0002`, ...) with a single consistent mapping across all files. The released files contain no user objects, usernames, or profile images: each tweet is distributed as its text, its image, and its geotagged city. The `display_link` and `image_link` fields hold only the file name of the tweet screenshot shown to annotators, not a link; the screenshots are not distributed. For takedown requests, please contact the authors.
 
 ## Data
 
-Tweet text and images are distributed separately:
+Tweet text is included under `data/`, one folder per annotated instance (10,500 instances):
 
 ```
-wget duration_final_data.zip
-unzip duration_final_data.zip   # creates data/ at the repository root (git-ignored)
+data/<instance_id>/<instance_id>.json   # tweet text and the other fields used by the code
 ```
+
+Each JSON file keeps only `id_str`, `created_at`, `lang`, `full_text`, `image_caption`, `location_description`, and `place` (`full_name`, `name`, `place_type`, `country_code`). User objects, coordinates, and all other tweet metadata were removed.
+
+The tweet images (`data/<instance_id>/<instance_id>.png`, about 4.5 GB in total) are too large for this repository. Please contact the authors to obtain them.
 
 ## Setup
 

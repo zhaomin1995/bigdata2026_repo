@@ -1,0 +1,14 @@
+{
+ "id_str": "1279070070501715968",
+ "created_at": "Fri Jul 03 15:10:43 +0000 2020",
+ "lang": "en",
+ "full_text": "Government be like... #curfew #mask #socialdistancing @ Miami Beach, Florida https://t.co/IpsZjOHCR1",
+ "image_caption": "a sign that reads \"no parking\" on the side of a building",
+ "location_description": "Miami Beach is a coastal resort city in Miami-Dade County, Florida. It was incorporated on March 26, 1915. The municipality is located on natural and man-made barrier islands between the Atlantic Ocean and Biscayne Bay, the latter of which separates the Beach from the mainland city of Miami.",
+ "place": {
+  "full_name": "Miami Beach, FL",
+  "name": "Miami Beach",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "id_str": "1241104670862594049",
+ "created_at": "Fri Mar 20 20:49:46 +0000 2020",
+ "lang": "en",
+ "full_text": "It will all be ok.   #rainbow #california #corona #wecanbeatthis @ Pleasanton, California https://t.co/fWVu7rx96U",
+ "image_caption": "a cloudy sky over a city street with buildings",
+ "location_description": "Pleasanton is a city in Alameda County, California, United States. Located in the Amador Valley, it is a suburb in the East Bay region of the San Francisco Bay Area. The population was 79,871 at the 2020 census.",
+ "place": {
+  "full_name": "Pleasanton, CA",
+  "name": "Pleasanton",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

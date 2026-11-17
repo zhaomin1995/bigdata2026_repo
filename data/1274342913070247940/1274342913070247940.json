@@ -1,0 +1,14 @@
+{
+ "id_str": "1274342913070247940",
+ "created_at": "Sat Jun 20 14:06:41 +0000 2020",
+ "lang": "en",
+ "full_text": "#mandatoryfacemask this is my version #covid19 #racing #facemask @ Tampa, Florida https://t.co/Kxmwzw9KV9",
+ "image_caption": "a person wearing a red hat and a red scarf",
+ "location_description": "Tampa (US: ) is a city on the Gulf Coast of the U.S. state of Florida. The city's borders include the north shore of Tampa Bay and the east shore of Old Tampa Bay. Tampa is the largest city in the Tampa Bay area and the seat of Hillsborough County.",
+ "place": {
+  "full_name": "Tampa, FL",
+  "name": "Tampa",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

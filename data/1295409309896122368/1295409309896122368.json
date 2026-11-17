@@ -1,0 +1,14 @@
+{
+ "id_str": "1295409309896122368",
+ "created_at": "Mon Aug 17 17:17:01 +0000 2020",
+ "lang": "en",
+ "full_text": "Welcome to the #toohot #pandemic #waitingroom at the doctors. @ Edison, New Jersey https://t.co/6W1lURJp7Z",
+ "image_caption": "a yellow fire hydrant sitting on the side of a road",
+ "location_description": "Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman. He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures. These inventions, which include the phonograph, the motion picture camera, and early versions of the electric light bulb, have had a widespread impact on the modern industrialized world.",
+ "place": {
+  "full_name": "Edison, NJ",
+  "name": "Edison",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

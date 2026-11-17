@@ -1,0 +1,14 @@
+{
+ "id_str": "1246532132924686336",
+ "created_at": "Sat Apr 04 20:16:34 +0000 2020",
+ "lang": "en",
+ "full_text": "This #wall between us. #socialdistancing #corona @ Hoboken, New Jersey https://t.co/jPD6x2rD9x",
+ "image_caption": "a man taking a picture of himself in a mirror",
+ "location_description": "Hoboken ( HOH-boh-kən; Unami: Hupokàn) is a city in Hudson County, New Jersey, United States. As of the 2020 United States Census, the city's population was 60,417. Among cities with a population above 50,000, Hoboken was ranked as the third-most densely populated municipality in the United States, with more than 42,400 people per square mile.",
+ "place": {
+  "full_name": "Hoboken, NJ",
+  "name": "Hoboken",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

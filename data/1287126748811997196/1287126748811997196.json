@@ -1,0 +1,14 @@
+{
+ "id_str": "1287126748811997196",
+ "created_at": "Sat Jul 25 20:45:05 +0000 2020",
+ "lang": "en",
+ "full_text": "My current situation #SocialDistanceVisiting #COVID19 #FirstTimeOutInMonths @ Santa Cruz, California https://t.co/ThGEx5Rld3",
+ "image_caption": "a man wearing a black shirt and a black tie",
+ "location_description": "Santa Cruz (Spanish for \"Holy Cross\") is the county seat and largest city of Santa Cruz County, in Northern California. As of the 2020 census, the city population was 62,956. Situated on the northern edge of Monterey Bay, Santa Cruz is a popular tourist destination, owing to its beaches, surf culture, and historic landmarks.",
+ "place": {
+  "full_name": "Santa Cruz, CA",
+  "name": "Santa Cruz",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}

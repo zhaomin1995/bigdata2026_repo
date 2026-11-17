@@ -1,0 +1,14 @@
+{
+ "id_str": "1242874434660204546",
+ "created_at": "Wed Mar 25 18:02:11 +0000 2020",
+ "lang": "en",
+ "full_text": "Two of my favorite people @kkmoricca #corona #stayhome #doglife @ Columbus, Ohio https://t.co/LEea9NToki",
+ "image_caption": "a woman sitting on a couch with a dog",
+ "location_description": "Columbus () is the state capital and the most populous city in the U.S. state of Ohio. With a 2020 census population of 905,748, it is the 14th-most populous city in the U.S., the second-most populous city in the Midwest, after Chicago, and the third-most populous state capital. Columbus is the county seat of Franklin County; it also extends into Delaware and Fairfield counties.",
+ "place": {
+  "full_name": "Columbus, OH",
+  "name": "Columbus",
+  "place_type": "city",
+  "country_code": "US"
+ }
+}
